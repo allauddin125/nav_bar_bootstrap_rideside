@@ -1,0 +1,23 @@
+$ git config --global user.name Allauddin
+
+$ git config --global user.email "allauddinmfp1999@gmail.com"
+
+$ touch .gitignore
+
+$ git init
+
+$ git add .
+
+$ git commit -m "gya"
+
+$ git status
+
+$ git remote add origin https://github.com/allauddin125/nav_bar_bootstrap_rideside.git
+
+$ git push origin master
+
+
+
+
+
+
