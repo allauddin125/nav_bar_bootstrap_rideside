@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FONT-AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+     <!--=============== BOOTSTRAP ===============-->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Nav-bar</title>
+</head>
+<body>
+       <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <!-- Logo and Toggle Button Container -->
+            <div class="nav__data">
+                <!-- Logo -->
+                <a href="#" class="nav__logo">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="Logo">
+                </a>
+                
+                <!-- Mobile Menu Toggle Button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars nav__burger"></i>
+                    <i class="fa-solid fa-xmark nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <!-- Simple Nav Links -->
+                    <li><a href="#" class="nav__link">Home</a></li>
+                    <li><a href="#" class="nav__link">Company</a></li>
+
+                    <!--=============== DROPDOWN 1 - Analytics ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Analytics <i class="fa-solid fa-angle-down dropdown__arrow"></i> 
+                        </div>
+
+                        <!-- Dropdown Menu -->
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">Overview</a>                          
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__link">Transactions</a>
+                            </li>
+
+                            <!--=============== DROPDOWN SUBMENU - Reports ===============-->
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Reports <i class="fa-solid fa-angle-down dropdown__add"></i> 
+                                </div>
+
+                                <!-- Submenu -->
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-file-list-line"></i> Documents
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-cash-line"></i> Payments
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-refund-2-line"></i> Refunds
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Simple Nav Link -->
+                    <li><a href="#" class="nav__link">Products</a></li>
+
+                    <!--=============== DROPDOWN 2 - Users ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Users <i class="fa-solid fa-angle-down dropdown__arrow"></i> 
+                        </div>
+
+                        <!-- Dropdown Menu -->
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-user-line"></i> Profiles
+                                </a>                          
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-lock-line"></i> Accounts
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-message-3-line"></i> Messages
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Simple Nav Link -->
+                    <li><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--====================BOOTSTRAP JS==================-->
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <!--=============MAIN JS==================-->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
